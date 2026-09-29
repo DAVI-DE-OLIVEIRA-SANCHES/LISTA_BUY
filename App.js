@@ -21,7 +21,7 @@ export default function App() {
     <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={styles.container}>
       <StatusBar style="auto" />
       <View style={styles.content}>
-        <Text style={styles.emoji}>🛒</Text>
+        <Text style={styles.emoji}></Text>
         <Text style={styles.title}>Minha lista de compras</Text>
         <Text style={styles.subtitle}>Organize o que você precisa comprar</Text>
         <View style={styles.form}>
